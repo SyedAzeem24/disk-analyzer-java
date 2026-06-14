@@ -13,10 +13,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /*
- * ╔═══════════════════════════════════════════════════════════════════════════╗
+ * ╔═════════════════════════════════════════════════════════════════════════╗
  * ║                     DISK USAGE ANALYZER — DiskAnalyzer.java             ║
  * ║                     Software Construction & Design Project              ║
- * ╠═══════════════════════════════════════════════════════════════════════════╣
+ * ╠═════════════════════════════════════════════════════════════════════════╣
  * ║                                                                         ║
  * ║  CONCEPT INDEX — Where each course concept is demonstrated:             ║
  * ║                                                                         ║
@@ -28,7 +28,7 @@ import java.util.logging.Logger;
  * ║     → FileNode.java: encapsulated data with public operations only      ║
  * ║                                                                         ║
  * ║  3. Representation Invariants & Abstraction Function (Week 9):          ║
- * ║     → FileNode.java: checkRep() method, RI & AF in class Javadoc       ║
+ * ║     → FileNode.java: checkRep() method, RI & AF in class Javadoc        ║
  * ║                                                                         ║
  * ║  4. Immutability (Week 5):                                              ║
  * ║     → FileNode.java: final fields (path, name, isDirectory, depth)      ║
@@ -65,7 +65,7 @@ import java.util.logging.Logger;
  * ║       constants, meaningful names, consistent indentation               ║
  * ║                                                                         ║
  * ║ 11. Managing Complexity (Week 3):                                       ║
- * ║     → Layered architecture: Data → Format → Render → UI                ║
+ * ║     → Layered architecture: Data → Format → Render → UI                 ║
  * ║     → FileSystemScanner interface decouples scanning from UI            ║
  * ║     → ScanCallback decouples worker from UI                             ║
  * ║                                                                         ║
@@ -80,7 +80,7 @@ import java.util.logging.Logger;
  * ║ 14. Version Control (Week 14):                                          ║
  * ║     → .gitignore with Git workflow documentation                        ║
  * ║                                                                         ║
- * ╚═══════════════════════════════════════════════════════════════════════════╝
+ * ╚═════════════════════════════════════════════════════════════════════════╝
  */
 
 /**
