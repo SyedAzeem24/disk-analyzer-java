@@ -250,11 +250,11 @@ public class DiskAnalyzer extends JFrame implements ScanWorker.ScanCallback {
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 6, 0));
         buttonPanel.setOpaque(false);
 
-        scanButton = createStyledButton("▶ Scan", new Color(40, 120, 80));
-        cancelButton = createStyledButton("■ Cancel", new Color(160, 60, 60));
-        deleteButton = createStyledButton("🗑 Delete", new Color(140, 55, 55));
-        exportButton = createStyledButton("📄 Export CSV", new Color(60, 100, 150));
-        clearCacheButton = createStyledButton("🗑 Clear Cache", new Color(100, 85, 60));
+        scanButton = createStyledButton("Scan", new Color(40, 120, 80));
+        cancelButton = createStyledButton("Cancel", new Color(160, 60, 60));
+        deleteButton = createStyledButton("Delete", new Color(140, 55, 55));
+        exportButton = createStyledButton("Export CSV", new Color(60, 100, 150));
+        clearCacheButton = createStyledButton("Clear Cache", new Color(100, 85, 60));
 
         cancelButton.setEnabled(false);
         deleteButton.setEnabled(false);
